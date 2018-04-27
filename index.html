@@ -48,24 +48,9 @@
     </ul>
 
 
-    <p>Yayyyy</p>
 
-    <ul class="list-inline holder d-flex flex-wrap align-items-end mb-3 p-2" style="">
-      <li class="list-inline-item item1 p-2">
-        <div class="">Wrap on small screens (but not on larger ones) item with lots of stuff</div>
-      </li>
-      <li class="list-inline-item no-shrink ml-auto">
-        <ul class="list-inline d-flex" >
-          <li class="list-inline-item no-shrink item2 p-2 ml-auto">
-            <div class="">Flex item no shrink</div>
-          </li>
-          <li class="list-inline-item item3 p-2">
-            <div class="">Flex item</div>
-          </li>
-        </ul>
-      </li>
-    </ul>
 
+    <p>No flexbox - list gives ugly spacing...</p>
 
     <ul class="list-inline holder mb-3 p-2 clearfix" style="">
 
@@ -84,6 +69,29 @@
         </ul>
       </li>
     </ul>
+
+
+
+    <p>Yayyyy - flexbox gives nice padding/spacing</p>
+
+
+    <ul class="list-inline holder d-flex flex-wrap align-items-end mb-3 p-2" style="">
+      <li class="list-inline-item item1 p-2 mr-0">
+        <div class="">Flex item with lots of stuff that goes on and on and still keeps going with more stuff it</div>
+      </li>
+      <li class="list-inline-item no-shrink ml-auto">
+        <ul class="list-inline d-flex" >
+          <li class="list-inline-item no-shrink item2 p-2 ml-auto">
+            <div class="">Flex item</div>
+          </li>
+          <li class="list-inline-item item3 p-2">
+            <div class="">Flex item</div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

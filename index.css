@@ -1,3 +1,7 @@
+html {
+  font-size: 16px; /* rem is relative to this... */
+}
+
 .title {
   background-color: yellow;
 }
