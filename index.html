@@ -17,81 +17,13 @@
       <div class="item3 p-2">Flex item</div>
     </div>
 
-    <div class="holder d-flex align-items-end mb-3" style="min-height: 100px">
-      <div class="item1 p-2 mr-auto">Flex item</div>
-      <div class="item2 p-2 no-shrink">Flex item no shrink</div>
-      <div class="item3 p-2">Flex item</div>
+    <div class="holder d-flex flex-wrap align-items-end mb-3 p-2" style="">
+      <div class="item1 p-2 mr-0">Flex item with lots of stuff that goes on and on and still keeps going with more stuff it</div>
+      <div class="no-shrink ml-auto d-flex align-items-end">
+        <div class="list-inline-item item2 p-2">Flex item</div>
+        <div class="list-inline-item item3 p-2">Flex item</div>
+      </div>
     </div>
-
-    <ul class="list-inline holder d-flex align-items-end mb-3 p-2" style="">
-      <li class="list-inline-item item1 p-2">
-        <div class="">Flex item with lots of stuff that goes on and on and still keeps going with more stuff it never stops</div>
-      </li>
-      <li class="list-inline-item no-shrink item2 p-2">
-        <div class="">Flex item no shrink</div>
-      </li>
-      <li class="list-inline-item item3 p-2">
-        <div class="">Flex item</div>
-      </li>
-    </ul>
-
-    <ul class="list-inline holder d-flex align-items-end mb-3 p-2" style="">
-      <li class="list-inline-item mr-auto item1 p-2">
-        <div class="">Flex item</div>
-      </li>
-      <li class="list-inline-item no-shrink item2 p-2">
-        <div class="">Flex item no shrink</div>
-      </li>
-      <li class="list-inline-item item3 p-2">
-        <div class="">Flex item</div>
-      </li>
-    </ul>
-
-
-
-
-    <p>No flexbox - list gives ugly spacing...</p>
-
-    <ul class="list-inline holder mb-3 p-2 clearfix" style="">
-
-      <li class="list-inline-item item1 p-2">
-        <div class="">Normal item with lots of stuff that goes on and on and still keeps going with more stuff it never stops</div>
-      </li>
-
-      <li class="float-right">
-        <ul class="list-inline" style="">
-          <li class="list-inline-item item3 p-2">
-            <div class="">Normal item</div>
-          </li>
-          <li class="list-inline-item item2 p-2">
-            <div class="">Normal item no shrink</div>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-
-
-    <p>Yayyyy - flexbox gives nice padding/spacing</p>
-
-
-    <ul class="list-inline holder d-flex flex-wrap align-items-end mb-3 p-2" style="">
-      <li class="list-inline-item item1 p-2 mr-0">
-        <div class="">Flex item with lots of stuff that goes on and on and still keeps going with more stuff it</div>
-      </li>
-      <li class="list-inline-item no-shrink ml-auto">
-        <ul class="list-inline d-flex" >
-          <li class="list-inline-item no-shrink item2 p-2 ml-auto">
-            <div class="">Flex item</div>
-          </li>
-          <li class="list-inline-item item3 p-2">
-            <div class="">Flex item</div>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
