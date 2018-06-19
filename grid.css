@@ -1,0 +1,55 @@
+html {
+  font-size: 16px; /* rem is relative to this... */
+}
+
+.title {
+  background-color: yellow;
+}
+
+.item {
+  background-color: red;
+}
+
+.item {
+  background-color: blue;
+  min-height: 200px;
+  width: 100%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.inner {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (min-width: 576px) {
+  .item {
+    background-color: yellow;
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    background-color: green;
+    width: 33.33333333%;
+  }  
+}
+
+@media (min-width: 992px) {
+  .item {
+    background-color: red;
+    width: 25%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .item {
+    background-color: pink;
+    width: 20%;
+  }  
+}

@@ -1,0 +1,40 @@
+html {
+  font-size: 16px; /* rem is relative to this... */
+}
+
+.title {
+  background-color: yellow;
+}
+
+.item {
+  background-color: red;
+  //padding: 8rem;
+  margin: 0.5rem;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.item:first-child {
+  //margin-left: 0rem;
+}
+
+.item:last-child {
+  //margin-right: 0rem;
+}
+
+
+.holder {
+  background-color: red;
+}
+
+.item1 {
+  background-color: green;
+}
+
+.item2 {
+  background-color: blue;
+}
+
+.item3 {
+  background-color: pink;
+}

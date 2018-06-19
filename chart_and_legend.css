@@ -1,0 +1,19 @@
+html {
+  font-size: 16px; /* rem is relative to this... */
+}
+
+.title {
+  background-color: yellow;
+}
+
+.chart {
+  background-color: red;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.legend {
+  background-color: blue;
+  min-width: 200px;
+  min-height: 200px;
+}
